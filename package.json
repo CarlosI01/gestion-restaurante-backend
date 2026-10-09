@@ -1,0 +1,53 @@
+{
+  "name": "gestion-restaurante-nest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Migración de gestion-restaurante Spring Boot a NestJS + TypeORM",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main.js",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^12.1.0",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^12.1.0",
+    "@nestjs/jwt": "^11.0.1",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^12.1.0",
+    "@nestjs/typeorm": "^12.0.1",
+    "bcryptjs": "^3.0.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "multer": "^2.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.16.3",
+    "qrcode": "^1.5.4",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "0.3.31"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^12.0.0",
+    "@nestjs/schematics": "^12.0.0",
+    "@nestjs/testing": "^12.1.0",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.5.2",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/qrcode": "^1.5.5",
+    "jest": "^30.1.3",
+    "source-map-support": "^0.5.21",
+    "ts-jest": "^29.4.4",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  }
+}
