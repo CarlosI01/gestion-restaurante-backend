@@ -1,0 +1,6 @@
+name = "gestion-restaurante-nest"
+main = "src/index.ts"
+compatibility_date = "2026-10-11"
+
+[build]
+command = "docker build -t gestion-restaurante-nest ."
